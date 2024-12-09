@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #f4f4f4;
+            color: #000;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Student ID</th>
+                <th>Age</th>
+                <th>Mobile No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>101</td>
+                <td>20</td>
+                <td>123-456-7890</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>102</td>
+                <td>22</td>
+                <td>987-654-3210</td>
+            </tr>
+            <tr>
+                <td>Emily Johnson</td>
+                <td>103</td>
+                <td>19</td>
+                <td>456-789-1234</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>104</td>
+                <td>21</td>
+                <td>321-654-9870</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
